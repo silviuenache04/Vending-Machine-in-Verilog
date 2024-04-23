@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="115.000 ns"></ZoomEndTime>
+      <Cursor1Time time="115.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb/clock_tb" type="logic">
+      <obj_property name="ElementShortName">clock_tb</obj_property>
+      <obj_property name="ObjectShortName">clock_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset_tb" type="logic">
+      <obj_property name="ElementShortName">reset_tb</obj_property>
+      <obj_property name="ObjectShortName">reset_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/cents_tb" type="logic">
+      <obj_property name="ElementShortName">cents_tb</obj_property>
+      <obj_property name="ObjectShortName">cents_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/euro_tb" type="logic">
+      <obj_property name="ElementShortName">euro_tb</obj_property>
+      <obj_property name="ObjectShortName">euro_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ack_tb" type="logic">
+      <obj_property name="ElementShortName">ack_tb</obj_property>
+      <obj_property name="ObjectShortName">ack_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/out_tb" type="logic">
+      <obj_property name="ElementShortName">out_tb</obj_property>
+      <obj_property name="ObjectShortName">out_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/test/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+</wave_config>
